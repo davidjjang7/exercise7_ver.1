@@ -1,30 +1,187 @@
-<!--This receipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <title>Spinach, Tofu and Sesame Stir-Fry</title>
 
 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&family=Lora&display=swap" rel="stylesheet">
 
-Spinach, Tofu and Sesame Stir-Fry
-By: Martha Rose Shulman
-Yield: 3 Servings
+    <style>
+      body {
+        background-color: #faf8ee;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", Arial, sans-serif;
+        line-height: 1.6;
+        color: #1a1a1a;
+      }
 
-Ingredients
+      .page-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        border: 1px solid #d6cfb8;
+        background-color: #faf8ee;
+        padding: 0 20px 20px 20px;
+        box-sizing: border-box;
+      }
 
-1 tablespoon canola oil
-½ pound tofu, cut in small dice
-1 large garlic clove, minced
-1 teaspoon grated or minced fresh ginger
-¼ teaspoon red chili flakes
-Soy sauce to taste
-16-ounce bag baby spinach, rinsed
-2 tablespoons toasted sesame seeds
-1 teaspoon sesame oil
+      .top-row {
+        display: flex;
+        gap: 24px;
+        align-items: flex-start;
+        margin-top: 20px;
+      }
 
-Preparation
+      .title-block {
+        width: 35%;
+      }
 
-Step 1
-Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.
+      h1 {
+        font-family: "Merriweather", serif;
+        font-size: 2em;
+        font-weight: 700;
+        line-height: 1.25;
+        color: #35553e;
+        margin: 0 0 0.4em 0;
+      }
 
-Step 2
-Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread.
+      .meta-line {
+        font-family: "Lora", serif;
+        font-size: 0.9em;
+        font-weight: 600;
+        color: #35553e;
+        margin: 0 0 6px 0;
+      }
 
-Tip
-Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
+      .top-photo {
+        width: 65%;
+        border: 1px solid #cfcfcf;
+        background-color: #fff;
+        padding: 4px;
+        box-sizing: border-box;
+      }
+
+      .top-photo img {
+        width: 100%;
+        display: block;
+        height: auto;
+      }
+
+      .bottom-row {
+        display: flex;
+        gap: 24px;
+        margin-top: 20px;
+        align-items: flex-start;
+      }
+
+      .ingredients-col {
+        width: 35%;
+      }
+
+      .ingredients-title {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 1.1em;
+        margin: 0 0 10px 0;
+        color: #1a1a1a;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      ul li {
+        margin-bottom: 6px;
+        font-size: 0.95em;
+        line-height: 1.5;
+      }
+
+      .prep-col {
+        width: 65%;
+      }
+
+      .prep-title {
+        font-family: "Merriweather", serif;
+        font-size: 1.15em;
+        font-weight: 700;
+        margin: 0 0 12px 0;
+        color: #1a1a1a;
+      }
+
+      h2.step-heading {
+        font-family: "Merriweather", serif;
+        font-size: 1em;
+        font-weight: 700;
+        margin: 0 0 6px 0;
+      }
+
+      p {
+        font-family: "Open Sans", Arial, sans-serif;
+        font-size: 1em;
+        line-height: 1.6;
+        margin: 0 0 14px 0;
+        max-width: 65ch;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <div class="top-row">
+        <div class="title-block">
+          <h1>Spinach, Tofu and<br>Sesame Stir-Fry</h1>
+          <p class="meta-line">By: Martha Rose Shulman</p>
+          <p class="meta-line">Yield: 3 Servings</p>
+        </div>
+
+        <div class="top-photo">
+          <img src="tofu.jpg" alt="Spinach, tofu and sesame stir-fry">
+        </div>
+      </div>
+
+      <div class="bottom-row">
+        <div class="ingredients-col">
+          <p class="ingredients-title">Ingredients</p>
+          <ul>
+            <li>1 tablespoon canola oil</li>
+            <li>½ pound tofu, cut in small dice</li>
+            <li>1 large garlic clove, minced</li>
+            <li>1 teaspoon grated or minced fresh ginger</li>
+            <li>¼ teaspoon red chili flakes</li>
+            <li>Soy sauce to taste</li>
+            <li>16-ounce bag baby spinach, rinsed</li>
+            <li>2 tablespoons toasted sesame seeds</li>
+            <li>1 teaspoon sesame oil</li>
+          </ul>
+        </div>
+
+        <div class="prep-col">
+          <p class="prep-title">Preparation</p>
+
+          <h2 class="step-heading">Step 1</h2>
+          <p>
+            Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu.
+            Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes.
+            Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until
+            the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.
+          </p>
+
+          <h2 class="step-heading">Step 2</h2>
+          <p>
+            Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok.
+            Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may
+            also use it as a filling for whole wheat pita bread.
+          </p>
+
+          <h2 class="step-heading">Tip</h2>
+          <p>
+            Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
